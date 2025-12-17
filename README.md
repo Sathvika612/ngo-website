@@ -1,12 +1,73 @@
-# React + Vite
+# NGO Website 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern NGO Website built using React + Vite. This project is designed to showcase an NGO's mission, activities, and contact information with a clean and user-friendly interface.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+* Responsive design (works on mobile, tablet, and desktop)
+* Modern UI built with React
+* Fast performance using Vite
+* Clean project structure
+* Easy to customize for any NGO
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+
+* Frontend: React.js
+* Build Tool: Vite
+* Languages: JavaScript, HTML, CSS
+
+
+##  Project Structure
+
+ngo-website/
+
+│
+├── public/
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+
+##  How to Run the Project Locally
+
+1. Clone the repository:
+git clone https://github.com/Sathvika612/ngo-website.git
+
+
+2. Navigate to the project folder:
+cd ngo-website
+
+3. Install dependencies:
+npm install
+
+4. Start the development server:
+npm run dev
+
+5. Open the browser and go to:
+http://localhost:5173
+
+
+##  Future Enhancements
+
+* Add donation/payment integration
+* Add contact form with backend support
+* Admin dashboard for content updates
+* Deployment to GitHub Pages / Netlify
+
+##  Author
+Sathvika
+B.Tech Student | Cybersecurity Enthusiast
+
+## License
+This project is for educational purposes.
